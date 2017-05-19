@@ -1,0 +1,326 @@
+/*-------------------------------------global-全局通用样式表-----------------------------------------------------*/
+
+/*-----------------------------------------------header页眉---------------------------------------*/
+.width1188{
+	width: 1188px;
+	margin: 0 auto;
+}
+.head{
+	height: 59px;
+}
+.logo{
+	width: 118px;
+	height: 59px;
+	background: url(../images/logo.png) no-repeat left 8px;
+	font-size: 0px;
+}
+.search{
+	width: 539px;
+	height: 44px;
+	background: url(../images/bg_header.png) no-repeat left 0px;
+	padding: 15px 0 0 52px;
+}
+.search_bar{
+	width: 380px;
+	height: 28px;
+	border: 1px #8ebefc solid;
+	border-radius: 2px;
+	position: relative;
+}
+.search_input{
+	width: 380px;
+	height: 28px;
+	font: 12px/30px "微软雅黑";
+	text-indent: 6px;
+	color: #757575;
+}
+.search_sub{
+	width: 42px;
+	height: 28px;
+	background:#a4cbff url(../images/search_bg.png) no-repeat 14px center;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.msg{
+	width: 307px;
+	height: 16px;
+	padding:20px 0 23px 14px;
+}
+.msg a{
+	float: left;
+	height: 16px;
+	font:12px/16px "微软雅黑";
+	color: #4c4c4c;
+}
+.msg .language{
+	background: url(../images/china.png) no-repeat left 2px;
+	padding-left: 24px;
+}
+.border{
+  display: inline-block;
+  vertical-align: middle;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  margin-left: 4px;
+  border-top: 7px solid #666;
+  border-bottom:none;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+}
+.msg>span{
+	float: left;
+	width: 1px;
+	height: 15px;
+	background-color:#b2b2b2 ;
+	margin: 0 9px 0;
+}
+.phone{
+	color: #0066cc;
+}
+.call .border{margin-left: 6px;
+	border-top-color: #0066cc ;
+}
+.head_ad{
+	width: 158px;
+	height: 59px;
+	background: url(../images/ad_header.png) no-repeat left 7px;
+}
+/*------------------------------------------firstnav主要一级导航条------------------------------------*/
+.nav_bg{
+	height: 40px;
+	background-color: #2577e3;
+}
+.firstnav{
+	width: 1190px;
+	height: 40px;
+	padding:0 8px 0 0;
+	position: relative;
+}
+.firstnav_left>a{
+	float: left;
+	height: 40px;
+	font:15px/40px "微软雅黑";
+	color: #fff;
+}
+.firstnav .index{
+	padding:0 9px 0 9px;
+	background-color: #1352a4;
+	margin-right: 8px;
+}
+.firstnav_left>span{
+	float: left;
+	width: 1px;
+	height: 16px;
+	background-color: #1d67dd;
+	margin:13px 7px 0;
+}
+.firstnav .border{
+	border-top-color: #fff;
+}
+.firstnav_right{
+	width: 127px;
+	height: 33px;
+	background: #ff9914 url(../images/login_bg.png) no-repeat 5px 11px;
+	padding: 5px 0 2px 33px;
+}
+.firstnav_right a{
+	float: left;
+	font:12px/16px "微软雅黑";
+	color: #fff;
+}
+.login span{
+	float: left;
+	width: 1px;
+	height: 16px;
+	background-color: #ffffd2;
+	margin:0 6px;
+}
+/*------------------------firstnav_left_hover------------*/
+.firstnav_left_hover{
+	width: 1149px;
+	height: 37px;
+	border: 1px #bbbbbb solid;
+	border-top: none;
+	padding: 0 19px 0 21px;
+	position: absolute;
+	top:40px;
+	left:0;
+	background-color: #fff;
+	display: none;
+	z-index: 5;
+}
+.firstnav_left_hover>a{
+	float: left;
+	height: 37px;
+	font: 14px/38px "微软雅黑";
+	color: #333333;
+}
+.firstnav_left_hover .float_ri{float: right;}
+.order span{
+	float: left;
+	width: 16px;
+	height: 16px;
+	background: url(../images/nav_bg.png) no-repeat left top;
+	margin:11px 5px 0 0;
+}
+.order .flight{background-position: left -17px;}
+.order .car{background-position: left -34px;}
+.order .train{background-position: left -51px;}
+.order .travel{background-position: left -68px;}
+.order .overseastravel{background-position: left -102px;}
+.firstnav_left_hover>span{
+	float: left;
+	width: 1px;
+	height: 15px;
+	background-color: #dddddd;
+	margin: 13px 5px 0;
+}
+.firstnav_left:hover .border{
+	border-bottom: 7px #fff solid;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top:none;
+}
+.firstnav_left:hover .firstnav_left_hover{display: block;}
+/*-----------------------------------------------subnav二级导航条------------------------------------*/
+.subnav{
+	height: 42px;
+}
+.subnav_title{
+	padding: 0 5px;
+	border-radius: 1px;
+	background-color: #74a8ed;
+	font:13px/22px "微软雅黑";
+	color: #fff;
+	text-align: center;
+	margin:10px 21px 10px 0 ;
+	position: relative;
+}
+.subnav_border{
+	position: absolute;
+	top:6px;
+	right: -8px;
+	width: 0;
+   	height: 0;
+   	border: 4px solid #74a8ed;
+   	border-color: #fff #fff #fff #74a8ed;
+   	overflow: hidden;
+}
+.subnav_list{
+	padding:14px 0 12px 0;
+}
+.subnav_list a{
+	float: left;
+	height:16px;
+	font:12px/14px "";
+	padding:0 25px 0 22px;
+	color: #666666;
+	background: url(../images/nav_bg.png) no-repeat left top;
+}
+.subnav_list .subnav_list_flight{background-position: left -17px;}
+.subnav_list .subnav_list_car{background-position: left -34px;}
+.subnav_list .subnav_list_train{background-position: left -51px;}
+.subnav_list .subnav_list_travel{background-position: left -68px;}
+.subnav_list .subnav_list_toptravel{background-position: left -85px;}
+.subnav_list .subnav_list_overseastravel{background-position: left -102px;}
+.subnav_list .subnav_list_visa{background-position: left -119px;}
+.subnav_list .subnav_list_exitinsurance{background-position: left -136px;}
+.subnav_list .subnav_list_exitwifi{background-position: left -153px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -----------------------------------------reset重置样式----------------------------------------------*/
+body,dd,dl,p,h1,h2,h3,h4,h5,h6{
+	margin:0;
+	font:12px "";
+	}
+body{background-color:#fff;}
+ol,ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+	}
+strong,b,h1,h2,h3,h4,h5,h6{
+	font-weight:normal;
+	}
+em,i{
+	font-style:normal;
+	}
+a{
+	text-decoration:none;
+	color:#000000;
+	}
+img{
+	border:none;
+	vertical-align:top;
+	}
+input,textarea,select,option,fieldset,legend{
+	margin:0;
+	padding:0;
+	border:0;
+	background:none ;
+	vertical-align: top;
+}
+/*----------------------------------------------public工具样式表--------------------------------------*/	
+.clearfix:after{
+	content:"";
+	display:block;
+	clear:both;
+	height:0;
+	overflow:hidden;
+	visibility:hidden; 
+	}
+.clearfix{zoom:1;}
+.fl{float:left;}
+.fr{float:right;}
+.vertical1{
+	height:0;
+	width:0;
+	display:inline-block;
+	vertical-align:middle;
+	}
